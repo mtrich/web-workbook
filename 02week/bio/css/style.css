@@ -52,10 +52,10 @@ p{
 }
 a:hover{
   background-color: orange;
-  border-top: 2px solid #333333;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 2px solid #333333;
+  border-top: 2px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
   padding-right: 5px;
 }
 .name{
