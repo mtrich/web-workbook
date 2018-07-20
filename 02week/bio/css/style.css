@@ -1,18 +1,80 @@
 body, html{
   height: 100%;
 }
-.bg{
-  background-image:url(./images/diagonal1920x1234.jpg)
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+body {
+   background: url("../images/diagonal1920x1234.jpg");
+   background-attachment: fixed;
+   background-size:cover;
+   font-family: Tahoma, Geneva, sans-serif;
 }
-.pictureofme{
-  display: block;
+
+div > img{
   border-radius: 50%;
-  width: 25%;
+  max-width: 100%;
+  opacity: .9;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  float:right;
 }
+h1{
+  font-size: 72pt;
+  margin-top: 13px;
+letter-spacing: 1px;
+  float:left;
+}
+h2{
+  margin-top: 10%;
+  margin-bottom: 8%;
+  font-size: 48pt;
+  text-align: center;
+}
+p{
+
+  text-indent: 28px;
+  margin-bottom: 5%;
+  font-size: 14pt;
+}
+
+.button {
+  font: bold 24px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  float:left;
+  margin-left: 8.5%;
+  margin-top: 50px;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #333333;
+}
+a:hover{
+  background-color: orange;
+  border-top: 2px solid #333333;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 2px solid #333333;
+  padding-right: 5px;
+}
+.name{
+  float: left;
+  width: 100%;
+  padding-left: 5%;
+  padding-bottom: 14px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.box1{
+  background-color: rgba(255, 255, 255, .7);
+  float: left;
+  width: 40%;
+  margin: 5% 0% 0% 5%;
+  padding: 0% 4% 2% 4%;
+}
+
+
+.box2{
+  float: right;
+  width: 33%;
+  margin: 5% 7% 0% 3%}
