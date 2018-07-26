@@ -1,0 +1,71 @@
+body{
+  background: url(../img/airline.jpg);
+  background-attachment: fixed;
+  background-size:cover;
+}
+Header{
+  width: 100%;
+  background-color: #203B54;
+  border-bottom: 1px white solid;
+  position: absolute;
+}
+
+img{
+  display:block;
+  float: left;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+p{
+  display: block;
+  float: left;
+}
+.Navigation{
+  position: absolute;
+  top: 44px;
+  right: 10%;
+  display: block;
+  color: white;
+}
+#search-box{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  background-color: #1B3853;
+  border-radius: 15px;
+  height: 400px;
+  color: white;
+}
+.flights{
+  padding: 10px 30px 10px 30px;
+  display: block;
+  float: left;
+  background-color: #2867B4;
+  border-top-left-radius: 15px;
+}
+.hotels{
+  padding: 10px 30px 10px 30px;
+  display: block;
+  float: left;
+  background-color: #368D80
+}
+.cars{
+  padding: 10px 30px 10px 30px;
+  display: block;
+  float: left;
+  background-color: #368D80;
+  border-top-right-radius: 15px;
+}
+.arrive_depart{
+width: 45%;
+display: block;
+float: left;
+}
+
+input{
+  background: none;
+  color: white;
+  position: absolute;
+  margin-left: 5px;
+float: left;
+}
