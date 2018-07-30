@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Airplane Website</title>
+  </head>
+  <body>
+    <main>
+
+      <header>
+        <img src="./img/logo.png" alt="Logo of UX Atlantic">
+        <div class="navigation">
+          <img src="./img/home-icon.png" alt="home icon">
+          <p>Home</p>
+          <img src="./img/deal-icon.png" alt="airplane icon">
+          <p>Travel Deals</p>
+          <img src="./img/schedule-icon.png" alt="clock icon">
+          <p>Flight Schedule</p>
+          <img src="./img/login-icon.png" alt="arrow pointing at page icon">
+          <p>Register/Login</p>
+        </div>
+      </header>
+
+      <section id="search-box">
+
+        <div class="flights">
+          <img src="./img/plane-icon.png" alt="airplane icon">
+        </div>
+        <div class="hotels">
+          <img src="./img/hotel-icon.png" alt="bed icon">
+        </div>
+        <div class="cars">
+          <img src="./img/car-icon.png" alt="car icon">
+        </div>
+
+        <div class="search_flights">
+
+          <input id="depart" type="search" name="Depart" placeholder="Depart">
+          <input id="arrive" type="search" name="Arrive" placeholder="Arrive">
+
+          <input id="depart_date" type="date" name="Depart_Date">
+          <input id="arrive_date" type="date" name="Arrive_date">
+
+          <span>Passengers</span>
+          <select class="passengers-select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+
+          <div class="ReturnRadio">
+            <label for="return">Return</label>
+            <input id="return" type="radio" name="return-oneway" value="Return">
+          </div>
+
+          <div class="One_wayRadio">
+            <label for="One_Way">One Way</label>
+            <input id="One_Way" type="radio" name="return-oneway" value="One Way">
+          </div>
+
+          <div class="search_button">
+            <button type="button" name="button">Search Flights</button>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+  </main>
+</body>
