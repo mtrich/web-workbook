@@ -1,0 +1,71 @@
+body{
+  width: 850px;
+  margin: 0 auto;
+}
+main{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.title{
+    background: url(../img/nasa-background.jpg);
+    height: 450px;
+    width: 850px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+  font-size: 58pt;
+  font-weight: bolder;
+}
+h2{
+font-size: 16pt;
+font-weight: bold;
+margin-bottom: 30px;
+}
+ul{
+   list-style-type: none;
+   line-height:28px;
+}
+#location{
+  line-height:28px;
+}
+.info{
+  display: flex;
+  max-width: 850px;
+  height: 324px;
+  background-color: #E6E6E6;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 30px;
+}
+.info-section{
+  width: 270px;
+}
+.fields{
+  width: 100%;
+  border: none;
+  resize: none;
+  margin-bottom: 10px;
+}
+.button{
+  background-color: #4D4D4D;
+  color: #FFFFFF;
+  border: none;
+  width: 80px;
+  height: 30px;
+font-weight: bold;
+}
+
+form input:first-of-type{
+  height: 25px;
+  margin-top: 5px;
+}
+textarea{
+  height: 80px;
+  margin-top: 5px;
+}
