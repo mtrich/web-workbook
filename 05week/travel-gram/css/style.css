@@ -44,8 +44,6 @@
 }
 @media (min-width: 500px){
   .main-container{
-
-
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 2em;
