@@ -1,3 +1,24 @@
+body{
+  width: 100%;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+header{
+  text-align: center;
+  padding:20px;
+  color: white;
+
+}
+h1{
+  font-size: 48pt;
+  text-shadow: 1px 1px 5px black;
+}
 .box1{
   grid-area: box1;
 }
@@ -29,7 +50,9 @@
   grid-area: box10;
 }
 .main-container{
+  margin-bottom: 40px;
   display: grid;
+  grid-gap: 1em;
   grid-template-areas:
   "box1"
   "box2"
@@ -45,7 +68,7 @@
 @media (min-width: 500px){
   .main-container{
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 2em;
   grid-gap: 1em;
   width: 100%;
@@ -66,18 +89,44 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 2em;
   grid-gap: 1em;
-  width: 100%;
+  width: 95%;
   grid-template-areas:
     "box1 box1 box2 box2"
-    "box3 box3 box4 box5"
-    "box3 box3 box6 box6"
-    "box7 box8 box9 box10"
+    "box4 box3 box3 box5"
+    "box6 box6 box9 box9"
+    "box7 box10 box8 box8"
 }
 }
 .box{
-  background-color: grey;
+  border-radius: 2px solid black;
+  border-radius: 15px;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, .3);
+  color: black;
+  line-height: 1.75;
+  text-shadow: 1px 1px 5px orange;
+  display: grid;
+  grid-template-areas:
+  "img"
+  "game-title"
+  "about"
 }
 img{
-  width: 80%;
+  width: 100%;
   height: auto;
+  grid-area: img;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px yellow;
+}
+h2{
+  font-size: 26pt;
+  grid-area: game-title;
+  margin-bottom: 20px;
+}
+.about{
+  grid-area: about;
+}
+p{
+  font-size: 14pt;
 }
